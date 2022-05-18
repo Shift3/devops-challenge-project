@@ -49,6 +49,8 @@ resource "aws_instance" "web" {
   vpc_security_group_ids = [
       "${data.aws_security_group.defaultvpc.ids}",
   ]
+  subnet_id     = "subnet-09de13c1905b48a9e"
+  ami           = "ami-0ca285d4c2cda3300"
 
   root_block_device {
     #Fill out the volume size and storage in here.
