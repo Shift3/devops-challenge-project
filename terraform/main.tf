@@ -2,6 +2,7 @@
 terraform {
   backend "s3" {
     bucket  = "bwtc-devopschallenge"
+    #replace <yourinitials> to your initials so it can look something like this. "t.g/terraform.tfstate"
     key     = "<yourinitials>/terraform.tfstate"
     region  = "us-west-2"   
     profile = ""
