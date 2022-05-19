@@ -1,4 +1,4 @@
-# Shift3 DevOps Challenge Project
+# BWTC DevOps Challenge Project
 This project represents a challenge to test your knowledge in IaaC. This will also test your ability to deploy resources in AWS. 
 
 ## Challenge Instructions
