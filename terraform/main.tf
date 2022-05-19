@@ -2,7 +2,7 @@
 terraform {
   backend "s3" {
     bucket  = "shift3-devopschallenge"
-    key     = "shift3-devopschallenge/terraform.tfstate"
+    key     = "<yourinitials>/terraform.tfstate"
     region  = "us-west-2"   
     profile = ""
   }
