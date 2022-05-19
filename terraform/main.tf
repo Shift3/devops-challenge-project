@@ -1,7 +1,7 @@
 #Here you will configure your terraform and backend 
 terraform {
   backend "s3" {
-    bucket  = "shift3-devopschallenge"
+    bucket  = "bwtc-devopschallenge"
     key     = "<yourinitials>/terraform.tfstate"
     region  = "us-west-2"   
     profile = ""
